@@ -7,12 +7,12 @@ var myArray = [1, 2, 3]
 //problems!
 function destructivelyAddElementToBeginningOfArray (myArray, foo) {
   myArray.unshift(foo);
-  return foo;
+  return myArray;
 }
 
 function destructivelyAddElementToEndOfArray (myArray, foo) {
   myArray.push(foo)
-  return foo;
+  return myArray;
 }
 //problems!
 
